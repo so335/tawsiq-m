@@ -990,7 +990,8 @@ $('surveyCopy').addEventListener('click',function(){if(!d.survey){toast('اكت�
 
 /* ===== مولّد الاستطلاع الجاهز (رابط قصير عام يعمل في كل المتصفحات والواتساب) ===== */
 // النطاق المنشور عليه الاستبيان — يعمل في كل المتصفحات ومن الواتساب
-var SURVEY_BASE_URL = 'https://bj4zyo9thvxl0.space.minimax.io/';
+var SURVEY_BASE_URL = 'https://so335.github.io/tawsiq-m/survey.html';
+  // ملاحظة: الاستبيانات تُستضاف على GitHub Pages الخاص بالمدرسة — بدون أي حقن أو شعار من منصة الاستضافة.
 function escHTML(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
 function escJS(s){return String(s==null?'':s).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n').replace(/\r/g,'')}
 // يبني رابط الاستبيان القصير (HTTPS عام) مع تمرير بيانات الفعالية في الـ URL
